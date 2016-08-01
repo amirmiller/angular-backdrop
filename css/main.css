@@ -1,0 +1,39 @@
+.visit-backdrop-msg {
+	position: absolute;
+	top:20%;
+	left: 50%;
+	z-index: 1300;
+	visibility: hidden;	
+	transform: translate(-50%, 0);
+}
+
+.progress-dot {
+	height: 15px;
+	width: 15px;
+	border-radius:50% !important;
+	display: inline-block;
+	background-color: grey;
+}
+
+.progress-dot-full {
+	background-color: #0c608e !important;
+}
+
+.product-backdrop.in {
+	opacity: 0.8;	
+}
+
+.product-backdrop {
+	background-color: #FFF;
+}
+
+.product-backdrop::before {
+	position: absolute;
+    color:#FFFFFF ;
+    font-size:40px;
+    z-index: 351;
+    top: 10%;
+    left: 50%;
+    content: "";
+    display:inline-block;
+}
